@@ -64,4 +64,14 @@ body {
       font-size: 1.2rem;
     }
   }
+
+/* Prevent the red flash on touch for all clickable elements */
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation; /* Helps with better touch handling */
+}
+button, a, div {
+  outline: none; /* Removes the default outline */
+}
+
   
