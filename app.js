@@ -103,3 +103,9 @@ function reset() {
   userSeq = [];
   level = 0;
 }
+
+// Example
+box.addEventListener('touchstart', function() {
+  // Your code to handle the box click
+});
+
